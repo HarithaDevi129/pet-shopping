@@ -1,9 +1,11 @@
 package com.example.pets.dto;
 
+import javax.validation.constraints.NotEmpty;
+
 public class LoginDto {
-	
+	@NotEmpty(message="username must not be empty")
 		private String userName;
-		
+	@NotEmpty(message="password must not be empty")
 		private String password;
 		
 		

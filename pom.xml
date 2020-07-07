@@ -16,6 +16,34 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<sonar.coverage.exclusions>
+       src/main/java/com/example/pets/model/Confirmation.java
+       	src/main/java/com/example/pets/model/Pets.java
+       	src/main/java/com/example/pets/model/User.java
+        src/main/java/com/example/pets/dto/BookingResponseDto.java
+        src/main/java/com/example/pets/dto/ConfirmationListResponseDto.java
+        src/main/java/com/example/pets/dto/LoginDto.java
+        src/main/java/com/example/pets/dto/LoginResponseDto.java
+        src/main/java/com/example/pets/dto/OrderRequestDto.java
+        src/main/java/com/example/pets/dto/PetListResponseDto.java
+        src/main/java/com/example/pets/dto/PetResponseDto.java
+        src/main/java/com/example/pets/dto/PurchaseListDto.java
+        src/main/java/com/example/pets/dao/ConfirmationDao.java
+       	src/main/java/com/example/pets/dao/PetsDao.java
+       	src/main/java/com/example/pets/dao/UserDao.java
+        src/main/java/com/example/pets/configuration/SwaggerConfig.java
+        src/main/java/com/example/pets/exception/AlreadyPurchasedException.java
+        src/main/java/com/example/pets/exception/ExceptionController.java
+        src/main/java/com/example/pets/exception/ErrorResponse.java
+      	src/main/java/com/example/pets/exception/InvalidCredentialException.java
+      	src/main/java/com/example/pets/exception/InvalidPetIdException.java
+      	src/main/java/com/example/pets/exception/InvalidUserIdException.java
+      	src/main/java/com/example/pets/exception/PetsNotFoundException.java
+      	src/main/java/com/example/pets/exception/UserIdNotFoundException.java
+      	src/main/java/com/example/pets/service/ConfirmationService.java
+      	src/main/java/com/example/pets/service/PetsService.java
+      	src/main/java/com/example/pets/service/UserService.java
+        </sonar.coverage.exclusions>
 	</properties>
 
 	<dependencies>
